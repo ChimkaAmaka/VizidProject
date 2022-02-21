@@ -1,0 +1,27 @@
+{% extends 'main.html' %}
+{% load static %}
+<html lang='en'
+<head>
+    <meta charset = "UTF-8"
+    <title> Rooms</title>
+    <link href="{% static 'vizidapp/media' %}" rel="stylesheet">
+ {% block content %}   
+</head>>
+<body>
+    <h2>Make your room choice</h2>
+    <a href= "/makepayment" > 
+        <img src = "{% static 'vizidapp/media/im1.jfif' %}" alt ='no image found'> make order
+    </a>
+    <a href= "/makepayment" > 
+        <img src = "{% static 'vizidapp/media/im2.jfif' %}" alt ='no image found'> make order
+    </a>
+    <a href= "/makepayment" > 
+        <img src = "{% static 'vizidapp/media/im3.jfif' %}" alt ='no image found'> make order
+    </a>
+    <a href= "/makepayment" > 
+        <img src = "{% static 'vizidapp/media/im4.jfif' %}" alt ='no image found'> make order
+    </a>
+</body>
+{% endblock content %}
+</html>
+
